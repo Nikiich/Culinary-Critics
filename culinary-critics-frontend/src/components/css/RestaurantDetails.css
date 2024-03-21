@@ -1,0 +1,56 @@
+.container {
+  display: block;
+  margin: 20px auto;
+  margin-top: 80px;
+  width: 70%; 
+  max-width: 1200px; 
+}
+
+.restaurant-details, .review-container {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; 
+}
+
+.restaurant-name {
+  color: #333;
+  text-align: center;
+}
+
+.restaurant-info {
+  margin-top: 20px;
+}
+
+.cuisine-type ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cuisine-type li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.add-review-button{
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.add-review-button:hover {
+  background-color: #0056b3;
+}

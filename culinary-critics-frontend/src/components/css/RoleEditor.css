@@ -1,0 +1,47 @@
+.role-editor-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.role-editor-buttons .btn {
+  padding: 5px 15px;
+  margin: 5px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  width: 70px;
+}
+
+.role-editor-buttons .btn.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.role-editor-buttons .btn.red {
+  background-color: red;
+}
+
+.role-editor-buttons .btn.green {
+  background-color: green;
+}
+
+.role-editor-buttons .btn.submit {
+  background-color: gray; 
+}
+
+
+.manage-roles-btn {
+  background-color: #007bff; 
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.manage-roles-btn:hover {
+  background-color: #0056b3;
+}

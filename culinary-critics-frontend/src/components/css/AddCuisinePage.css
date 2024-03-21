@@ -1,0 +1,19 @@
+.add-cuisine-page {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 120px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+.success-message {
+  position: fixed;
+  top: 20px;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+  right: 20px;
+}
